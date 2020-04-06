@@ -1,0 +1,122 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/product",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleColor": "#fff",
+						"backgroundColor": "#007AFF",
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入关键字查找",
+							"disabled": true
+						}
+					}
+				},
+				"mp-weixin": {
+					"titleNView": {
+						"type": "transparent",
+						"titleColor": "#fff",
+						"backgroundColor": "#007AFF",
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入关键字查找",
+							"disabled": true
+						}
+					}
+				}
+			}
+		}, {
+			"path": "pages/main/product/detail",
+			"style": {
+				"navigationBarTitleText": "设备详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/main/search-product",
+			"style": {
+				"navigationBarTitleText": "搜索设备",
+				"app-plus": {
+					"titleNView": {
+						
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入关键字查找",
+							"autoFocus": true
+						}
+					}
+				}
+			}
+		}, {
+			"path": "pages/main/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		}, {
+			"path": "pages/main/main",
+			"style": {
+				// "navigationBarTitleText": "登录模板"
+			}
+		}, {
+			"path": "pages/main/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/main/product",
+			"text": "首页",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		}, {
+			"pagePath": "pages/main/order",
+			"text": "订单",
+			"iconPath": "static/img/template.png",
+			"selectedIconPath": "static/img/templateHL.png"
+		}, {
+			"pagePath": "pages/main/user",
+			"text": "我的",
+			"iconPath": "static/img/user.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#007AFF",
+		"navigationBarTitleText": "hippo",
+		"backgroundColor": "#eee"
+	}
+}
